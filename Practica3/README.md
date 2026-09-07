@@ -15,15 +15,18 @@ También se modificaron las funciones 'push', 'pop', 'top' y 'muestra' de la cla
 
 ## Clase ElementoPila
 Esta clase sirve como base para los diferentes elementos que pueden almacenarse en la pila.
+
 class ElementoPila
 {
 public:
     virtual void muestra() = 0;
     virtual ~ElementoPila() {}
 };
+
 El método 'muestra()' es virtual para cada clase pueda mostrar su información de acuerdo con el tipo de objeto.
 ## Clase terminal
 La clase 'terminal' representa los símbolos terminales utilizados por el analizador.
+
 class Terminal : public ElementoPila
 {
 private:
@@ -40,5 +43,6 @@ public:
         cout << simbolo;
     }
 };
+
 Por ejemplo, los símbolos 'id', '+' y'$' pueden representarse mediante objetos de esta clase.
 
