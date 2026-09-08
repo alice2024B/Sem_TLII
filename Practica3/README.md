@@ -7,9 +7,10 @@ Con esta modificación, los elementos que forman la pila se pueden representar m
 ## Desarrollo
 Para realizar esta práctica se modificó la pila utilizada en la práctica anterior.
 Primero se creó la clase 'ElementoPila', que funciona como la clase base. Después se crearon las clases:
-- 'Terminal'
+- ' Terminal '
 - 'noTerminal'
 -  'Estado'
+  
 Estas tres clases heredan de 'ElementoPila'.
 También se modificaron las funciones 'push', 'pop', 'top' y 'muestra' de la clase 'pila' para trabajar con objetos de tipo 'ElementoPila*'.
 
